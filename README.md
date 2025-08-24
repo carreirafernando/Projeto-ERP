@@ -2,7 +2,7 @@
 
 ## Grupo 11
 
-### Integrantes:
+## Integrantes:
 
 **Lucas Silva Sanchas** - *Front end* - https://github.com/LucasSanches07 \
 **Fernando Alves Carreira** - *Back end* - https://github.com/carreirafernando \
@@ -10,6 +10,10 @@
 **Patrícia Albuquerque Pacheco** - *Banco de dados* - https://github.com/patialbuquerque \
 **Elaine Souza Santos** - *Banco de dados* - https://github.com/elainesstz-prog 
 
+## Justificativa da escolha:
+
+Escolhemos esse tema porque indústrias e empresas pequenas, ainda não possuem um sistema entregado que eles consigam ter uma dimensão de produção, perdas e lucros.
+Pensando nisso, resolvemos criar esse sistema. e também uma forma de entendermos como um sistema dessa magnitude funciona.
 
 ## Descrição do Sistema:
 
@@ -29,15 +33,17 @@ Um sistema ERP é composto por módulos que podem ser implementados de acordo co
 
 O público-alvo de um sistema ERP abrange empresas de todos os portes e setores, mas a escolha do sistema deve ser adaptada ao tamanho e às necessidades específicas do negócio. Empresas pequenas podem usar ERPs mais básicos e em nuvem, enquanto empresas médias se beneficiam da automação e análise de dados, e grandes corporações necessitam de soluções robustas.
 
-# Setores que se beneficiam com ERPs:
+## Setores que se beneficiam com ERPs:
 
 * Indústrias e Distribuição:
-    - São os maiores usuários de ERPs, utilizando-os para gerenciar a complexidade da cadeia produtiva e logística. 
+    São os maiores usuários de ERPs, utilizando-os para gerenciar a complexidade da cadeia produtiva e logística. 
 * Varejo:
-    - Aproveitam ERPs para otimizar a gestão de estoque, e-commerce e a experiência do cliente. 
+    Aproveitam ERPs para otimizar a gestão de estoque, e-commerce e a experiência do cliente.
+
 * Serviços:
-    - Empregam ERPs para a gestão de projetos, controle financeiro e otimização de processos internos. 
+    Empregam ERPs para a gestão de projetos, controle financeiro e otimização de processos internos.
+
 * Saúde e Construção:
-    - Utilizam ERPs específicos para suas necessidades, como gestão de projetos de construção ou controle de operações na área da saúde. 
+    Utilizam ERPs específicos para suas necessidades, como gestão de projetos de construção ou controle de operações na área da saúde. 
 
 Em resumo, qualquer empresa que busca uma gestão integrada, maior produtividade e a centralização de informações para tomadas de decisão estratégicas pode se beneficiar de um sistema ERP. 
