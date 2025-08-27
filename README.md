@@ -1,6 +1,6 @@
 # Projeto-ERP
 
-## Grupo 11
+## Grupo 11 (Controle de Produção)
 
 ## Integrantes:
 
@@ -8,7 +8,9 @@
 **Fernando Alves Carreira** - *Back end* - https://github.com/carreirafernando \
 **Lincoln Carmo da Cruz** - *Analísta de requisitos* - https://github.com/Lincolncruzz \
 **Patrícia Albuquerque Pacheco** - *Banco de dados* - https://github.com/patialbuquerque \
-**Elaine Souza Santos** - *Banco de dados* - https://github.com/elainesstz-prog 
+**Elaine Souza Santos** - *Banco de dados* - https://github.com/elainesstz-prog \
+**Ana Clara Matheus dos Santos** - *Alguma Coisa* - https://github.com/anaclaramsantos9-wq \
+**Gustavo** - *Alguma Coisa* - 
 
 ## Justificativa da escolha:
 
