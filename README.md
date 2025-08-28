@@ -10,7 +10,8 @@
 **Patrícia Albuquerque Pacheco** - *Banco de dados* - https://github.com/patialbuquerque \
 **Elaine Souza Santos** - *Banco de dados* - https://github.com/elainesstz-prog \
 **Ana Clara Matheus dos Santos** - *Alguma Coisa* - https://github.com/anaclaramsantos9-wq \
-**Gustavo** - *Alguma Coisa* - 
+**Gustavo Cito de Morais** - *Alguma Coisa* - \
+**Bruno Henrique dos Santos de Albuquerque** - *Alguma Coisa* - https://github.com/BHQ887
 
 ## Justificativa da escolha:
 
