@@ -13,7 +13,7 @@
 **Gustavo Cito de Morais** - *Plano financeiro* - https://github.com/gustavocm2 \
 **Bruno Henrique dos Santos de Albuquerque** - *Plano de marketing / Plano financeiro* - https://github.com/BHQ887 \
 **Gabriel Lima Santana** - *Plano operacional* - https://github.com/biellimasantana-coder \
-**Sabrina da Silva Ribeiro** - *Plano operacional* - 
+**Sabrina da Silva Ribeiro** - *Plano operacional* - https://github.com/sabrinadaniel2131-ops 
 
 ## Justificativa da escolha:
 
