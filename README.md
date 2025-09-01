@@ -4,14 +4,16 @@
 
 ## Integrantes:
 
-**Lucas Silva Sanchas** - *Front end* - https://github.com/LucasSanches07 \
-**Fernando Alves Carreira** - *Back end* - https://github.com/carreirafernando \
-**Lincoln Carmo da Cruz** - *Analísta de requisitos* - https://github.com/Lincolncruzz \
-**Patrícia Albuquerque Pacheco** - *Banco de dados* - https://github.com/patialbuquerque \
-**Elaine Souza Santos** - *Banco de dados* - https://github.com/elainesstz-prog \
-**Ana Clara Matheus dos Santos** - *Alguma Coisa* - https://github.com/anaclaramsantos9-wq \
-**Gustavo Cito de Morais** - *Alguma Coisa* - https://github.com/gustavocm2 \
-**Bruno Henrique dos Santos de Albuquerque** - *Alguma Coisa* - https://github.com/BHQ887
+**Lucas Silva Sanchas** - *Análise de mercado* - https://github.com/LucasSanches07 \
+**Fernando Alves Carreira** - *Programação / Banco de dados* - https://github.com/carreirafernando \
+**Lincoln Carmo da Cruz** - *Análise de mercado* - https://github.com/Lincolncruzz \
+**Patrícia Albuquerque Pacheco** - *Plano de marketing* - https://github.com/patialbuquerque \
+**Elaine Souza Santos** - *Análise de mercado* - https://github.com/elainesstz-prog \
+**Ana Clara Matheus dos Santos** - *Plano financeiro* - https://github.com/anaclaramsantos9-wq \
+**Gustavo Cito de Morais** - *Plano financeiro* - https://github.com/gustavocm2 \
+**Bruno Henrique dos Santos de Albuquerque** - *Plano de marketing / Plano financeiro* - https://github.com/BHQ887 \
+**Gabriel** - *Plano operacional* - \
+**Sabrina** - *Plano operacional* - 
 
 ## Justificativa da escolha:
 
