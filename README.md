@@ -12,8 +12,8 @@
 **Ana Clara Matheus dos Santos** - *Plano financeiro* - https://github.com/anaclaramsantos9-wq \
 **Gustavo Cito de Morais** - *Plano financeiro* - https://github.com/gustavocm2 \
 **Bruno Henrique dos Santos de Albuquerque** - *Plano de marketing / Plano financeiro* - https://github.com/BHQ887 \
-**Gabriel** - *Plano operacional* - \
-**Sabrina** - *Plano operacional* - 
+**Gabriel Lima Santana** - *Plano operacional* - https://github.com/biellimasantana-coder \
+**Sabrina da Silva Ribeiro** - *Plano operacional* - 
 
 ## Justificativa da escolha:
 
