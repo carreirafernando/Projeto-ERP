@@ -4,7 +4,7 @@
 
 ## Integrantes:
 
-**Lucas Silva Sanchas** - *Análise de mercado* - https://github.com/LucasSanches07 \
+**Lucas Silva Sanchas** - *Análise de mercado / Análise de risco* - https://github.com/LucasSanches07 \
 **Fernando Alves Carreira** - *Programação / Banco de dados* - https://github.com/carreirafernando \
 **Lincoln Carmo da Cruz** - *Análise de mercado* - https://github.com/Lincolncruzz \
 **Patrícia Albuquerque Pacheco** - *Plano de marketing* - https://github.com/patialbuquerque \
