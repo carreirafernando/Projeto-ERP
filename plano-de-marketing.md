@@ -1,5 +1,3 @@
-Estratégias de Divulgação
-
 # Porque nosso software é a escolha certa:
 
 - Evita perdas no estoque
@@ -9,7 +7,6 @@ Estratégias de Divulgação
 - Organiza seu estoque de forma simples e intuitiva
 - Controle de estoque online
 
-Redes Sociais
 # Instagram:
 
 - Reels mostrando antes/depois do uso do sistema
