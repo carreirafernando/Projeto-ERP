@@ -43,23 +43,15 @@ ferramentas visuais como Kanban (Trello/Jira) e burndown chart.
 - Semanas 15–16: Revisão final, melhorias e entrega do projeto.
   
 ### Quadro de Responsáveis por Etapa
-Etapa do Projeto
- Levantamento de requisitos
- Planejamento e acompanhamento (Scrum)
- Responsável
- Product Owner
- Scrum Master
- Modelagem do banco de dados
- Dev Backend + DBA
-Desenvolvimento do frontend
- Desenvolvimento do backend
- Dev Frontend
- Dev Backend
- Integração de APIs
- Testes e validação
- Documentação
- Implantação e manutenção
- Dev Backend
- QA
- Todos
- DevOps/Backend
+| Etapa do Projeto | Responsável |
+|------------------|-------------|
+| Levantamento de requisitos | Product Owner |
+| Planejamento e acompanhamento (Scrum) | Scrum Master |
+| Modelagem do banco de dados | Dev Backend + DBA |
+| Desenvolvimento do frontend | Dev Frontend |
+| Desenvolvimento do backend | Dev Backend |
+| Integração de APIs | Dev Backend |
+| Testes e validação |  QA |
+| Documentação | Todos |
+| Implantação e manutenção | DevOps/Backend |
+ 
