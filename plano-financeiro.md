@@ -5,8 +5,8 @@
 Investimentos iniciais englobam a infraestrutura necessária para o desenvolvimento e
 integração do sistema.
 
-| Categoria | Descrição | Valor | Estimado(R$) |
-|-----------|:---------:|:-----:|:------------:|
+| Categoria | Descrição | Valor Estimado(R$) |
+|-----------|:---------:|:------------------:|
 | Infraestrutura | Servidores, hospedagem, banco de dados| 15.000 |
 | Equipe de TI | Analista e Desenvolvedores | 20.000 |
 | **Total Investimento Inicial** | 35.000 |
