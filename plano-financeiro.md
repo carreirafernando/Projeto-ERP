@@ -9,7 +9,7 @@ integração do sistema.
 |-----------|:---------:|:------------------:|
 | Infraestrutura | Servidores, hospedagem, banco de dados| 15.000 |
 | Equipe de TI | Analista e Desenvolvedores | 20.000 |
-| **Total Investimento Inicial** | 35.000 |
+| **Total Investimento Inicial** | **35.000** |
 
 ### Custos Operacionais Mensais
 Custos relacionados à manutenção do sistema e operação contínua.
