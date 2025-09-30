@@ -1,0 +1,27 @@
+
+@startuml SystemContext
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+' Pessoas
+Person(Consultor, "Consultor", "Cadastro e venda de serviços")
+Person(Gerente, "Gerente", "Acesso total ao sistema")
+Person(ChefeOficina, "Chefe de oficina", "Visualiza veículos e faz apontamento para o produtivo")
+Person(SetorPecas, "Setor de Peças", "Recebe o pedido das peças vendidas pelo consultor")
+
+' Sistema principal
+System(CarManager, "CarManager", "Controle de veículos e oficina\nCadastro de veículos\nAcesso total ao sistema (roles variáveis)")
+
+' Relações
+Rel(Consultor, CarManager, "Cadastra veículo / vende serviços\n(gera pedido de peças após cadastro)")
+Rel(CarManager, ChefeOficina, "Mostra veículos cadastrados / permite apontamento")
+Rel(CarManager, SetorPecas, "Gera pedido de peças para o setor")
+Rel(Gerente, CarManager, "Acesso administrativo / gerenciamento total")
+
+' Nota para explicar fluxo
+Note left of Consultor
+  Após cadastro pelo consultor,
+  veículo é mostrado ao chefe
+  e é gerado pedido de peças.
+end note
+
+@enduml
