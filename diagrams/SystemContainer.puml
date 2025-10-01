@@ -1,0 +1,28 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_LEFT_RIGHT
+
+Person(consultor, "Consultor", "Cadastro e venda de serviços")
+Person(gerente, "Gerente", "Acesso total ao sistema")
+Person(chefe, "Chefe de oficina", "Visualiza veículos e faz apontamento para o produtivo")
+Person(pecas, "Setor de Peças", "Recebe o pedido das peças vendidas pelo consultor")
+
+System_Boundary(carmanager, "CarManager") {
+  Container(cadastro, "Cadastro", "C#", "Abertura de ordem de serviço e cadastro de clientes e veículos")
+  Container(controle, "Controle", "C#", "Controle de ordem de serviços")
+  Container(pecas_c, "Peças", "C#", "Recebe pedido das peças")
+  ContainerDb(db, "Banco de Dados", "MySQL", "Guardar e armazenar informações")
+}
+
+Rel(consultor, cadastro, "Cadastra clientes, veículos e serviços")
+Rel(cadastro, chefe, "Envia informações do veículo")
+Rel(cadastro, pecas_c, "Assim que veículo é cadastrado, envia pedido de peças")
+Rel(pecas_c, pecas, "Pedido de peças")
+Rel(chefe, controle, "Visualização e apontamento de produtivo")
+Rel(controle, gerente, "Visualização geral")
+Rel(cadastro, db, "Armazena dados")
+Rel(controle, db, "Armazena dados")
+Rel(pecas_c, db, "Armazena dados")
+
+@enduml
