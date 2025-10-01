@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+component "Cadastro - C#" as C1
+component "CarManager" as CM
+component "Pecas - C#" as P1
+component "Controle - C#" as CT
+database "Banco de dados - MySQL" as DB
+
+C1 --> DB : guarda informacoes
+C1 --> CM : cadastro cliente/veiculo
+CM --> CT : fluxo de trabalho
+CT --> DB : consulta/grava
+P1 --> CM : envia pedido
+CM --> P1 : solicita/recebe info
+CT --> CM : recebe info veiculos
+
+@enduml
