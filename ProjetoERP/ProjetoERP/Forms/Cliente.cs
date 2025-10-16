@@ -30,7 +30,7 @@ namespace ProjetoERP.Forms
                 try
                 {
                     conn.Open();
-                    string sql = "SELECT c.NOME, c.CPF, c.EMAIL, e.RUA, e.NUMERO, e.CEP, e.CIDADE, e.UF, t.TIPO, t.NUMERO " +
+                    string sql = "SELECT c.NOME, c.CPF, c.EMAIL, e.RUA, e.NUMERO, e.CEP, e.CIDADE, e.UF, t.TIPO, t.NUMEROTELEFONE " +
                                  "FROM db_user_11.clientes c " +
                                  "INNER JOIN db_user_11.endereco e " +
                                  "ON c.IDCLIENTE = e.ID_CLIENTE " +
@@ -56,7 +56,7 @@ namespace ProjetoERP.Forms
                         string uf = leitor.GetString("UF");
 
                         string tipo = leitor.GetString("TIPO");
-                        string numeroTelefone = leitor.GetString("NUMERO");
+                        string numeroTelefone = leitor.GetString("NUMEROTELEFONE");
 
                         //txt_id.Text = idCliente.ToString();
                         txt_Nome.Text = nome.ToString();
