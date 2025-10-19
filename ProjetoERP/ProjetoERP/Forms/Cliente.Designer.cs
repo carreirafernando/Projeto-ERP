@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.label4 = new System.Windows.Forms.Label();
-            this.txt_TipoTelefone = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Email = new System.Windows.Forms.TextBox();
             this.ID = new System.Windows.Forms.Label();
@@ -51,6 +50,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txt_Numero = new System.Windows.Forms.TextBox();
             this.btn_Cadastrar = new System.Windows.Forms.Button();
+            this.box_Resultado = new System.Windows.Forms.ListBox();
+            this.btn_Mostrar = new System.Windows.Forms.Button();
+            this.btn_atualizar = new System.Windows.Forms.Button();
+            this.tipo_tel = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label4
@@ -61,13 +64,6 @@
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Tipo";
-            // 
-            // txt_TipoTelefone
-            // 
-            this.txt_TipoTelefone.Location = new System.Drawing.Point(430, 79);
-            this.txt_TipoTelefone.Name = "txt_TipoTelefone";
-            this.txt_TipoTelefone.Size = new System.Drawing.Size(90, 20);
-            this.txt_TipoTelefone.TabIndex = 9;
             // 
             // label1
             // 
@@ -233,11 +229,51 @@
             // 
             this.btn_Cadastrar.Location = new System.Drawing.Point(292, 156);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
-            this.btn_Cadastrar.Size = new System.Drawing.Size(228, 36);
+            this.btn_Cadastrar.Size = new System.Drawing.Size(63, 36);
             this.btn_Cadastrar.TabIndex = 22;
-            this.btn_Cadastrar.Text = "Cadastrar / Mostrar";
+            this.btn_Cadastrar.Text = "Cadastrar";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;
             this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
+            // 
+            // box_Resultado
+            // 
+            this.box_Resultado.Font = new System.Drawing.Font("Microsoft PhagsPa", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.box_Resultado.FormattingEnabled = true;
+            this.box_Resultado.HorizontalScrollbar = true;
+            this.box_Resultado.ItemHeight = 16;
+            this.box_Resultado.Location = new System.Drawing.Point(28, 207);
+            this.box_Resultado.Name = "box_Resultado";
+            this.box_Resultado.Size = new System.Drawing.Size(492, 164);
+            this.box_Resultado.TabIndex = 23;
+            this.box_Resultado.DoubleClick += new System.EventHandler(this.box_Resultado_DoubleClick);
+            // 
+            // btn_Mostrar
+            // 
+            this.btn_Mostrar.Location = new System.Drawing.Point(448, 156);
+            this.btn_Mostrar.Name = "btn_Mostrar";
+            this.btn_Mostrar.Size = new System.Drawing.Size(63, 36);
+            this.btn_Mostrar.TabIndex = 24;
+            this.btn_Mostrar.Text = "Mostrar";
+            this.btn_Mostrar.UseVisualStyleBackColor = true;
+            this.btn_Mostrar.Click += new System.EventHandler(this.btn_Mostrar_Click);
+            // 
+            // btn_atualizar
+            // 
+            this.btn_atualizar.Location = new System.Drawing.Point(370, 156);
+            this.btn_atualizar.Name = "btn_atualizar";
+            this.btn_atualizar.Size = new System.Drawing.Size(63, 36);
+            this.btn_atualizar.TabIndex = 25;
+            this.btn_atualizar.Text = "Atualizar";
+            this.btn_atualizar.UseVisualStyleBackColor = true;
+            this.btn_atualizar.Click += new System.EventHandler(this.btn_atualizar_Click);
+            // 
+            // tipo_tel
+            // 
+            this.tipo_tel.FormattingEnabled = true;
+            this.tipo_tel.Location = new System.Drawing.Point(430, 79);
+            this.tipo_tel.Name = "tipo_tel";
+            this.tipo_tel.Size = new System.Drawing.Size(90, 21);
+            this.tipo_tel.TabIndex = 26;
             // 
             // Cliente
             // 
@@ -245,6 +281,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(621, 447);
+            this.Controls.Add(this.tipo_tel);
+            this.Controls.Add(this.btn_atualizar);
+            this.Controls.Add(this.btn_Mostrar);
+            this.Controls.Add(this.box_Resultado);
             this.Controls.Add(this.btn_Cadastrar);
             this.Controls.Add(this.txt_Numero);
             this.Controls.Add(this.label10);
@@ -258,7 +298,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txt_Cidade);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txt_TipoTelefone);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt_Nome);
             this.Controls.Add(this.label3);
@@ -279,7 +318,6 @@
 
         #endregion
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_TipoTelefone;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_Email;
         private System.Windows.Forms.Label ID;
@@ -301,5 +339,9 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txt_Numero;
         private System.Windows.Forms.Button btn_Cadastrar;
+        private System.Windows.Forms.ListBox box_Resultado;
+        private System.Windows.Forms.Button btn_Mostrar;
+        private System.Windows.Forms.Button btn_atualizar;
+        private System.Windows.Forms.ComboBox tipo_tel;
     }
 }

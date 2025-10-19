@@ -16,5 +16,11 @@ namespace ProjetoERP.Forms
         {
             InitializeComponent();
         }
+
+        private void Veiculo_Load(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }
