@@ -38,6 +38,7 @@ namespace ProjetoERP
             while(!Classes.usuarioLogado)
             {
                 login.ShowDialog();
+                AbrirFormNoPainel(new ProjetoERP.Forms.Inicio());
             }
 
             label_Usuario.Text = $"{Classes.nomeUsuarioLogado.ToUpper()[0]}{Classes.nomeUsuarioLogado.Substring(1)}";

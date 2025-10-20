@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.panel_Botoes = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label_Usuario = new System.Windows.Forms.Label();
             this.btn_Agenda = new System.Windows.Forms.Button();
             this.Btn_Veiculo = new System.Windows.Forms.Button();
@@ -36,11 +41,6 @@
             this.btn_Inicial = new System.Windows.Forms.Button();
             this.label_Data = new System.Windows.Forms.Label();
             this.panel_Principal = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel_Botoes.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +61,56 @@
             this.panel_Botoes.Name = "panel_Botoes";
             this.panel_Botoes.Size = new System.Drawing.Size(122, 450);
             this.panel_Botoes.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.Enabled = false;
+            this.button5.Location = new System.Drawing.Point(3, 362);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(115, 30);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "RH";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.Location = new System.Drawing.Point(3, 326);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(115, 30);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Vendas";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(3, 290);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(115, 30);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Estética";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Enabled = false;
+            this.button3.Location = new System.Drawing.Point(3, 254);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(115, 30);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Funilaria";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Enabled = false;
+            this.button4.Location = new System.Drawing.Point(3, 218);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(115, 30);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Peças";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // label_Usuario
             // 
@@ -131,56 +181,6 @@
             this.panel_Principal.Name = "panel_Principal";
             this.panel_Principal.Size = new System.Drawing.Size(538, 398);
             this.panel_Principal.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(3, 326);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 30);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Vazio";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(3, 290);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 30);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Vazio";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Enabled = false;
-            this.button3.Location = new System.Drawing.Point(3, 254);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(115, 30);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Vazio";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Enabled = false;
-            this.button4.Location = new System.Drawing.Point(3, 218);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(115, 30);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Vazio";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(3, 362);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(115, 30);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Vazio";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // Form_Principal
             // 
