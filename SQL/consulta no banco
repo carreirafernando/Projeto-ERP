@@ -1,0 +1,253 @@
+-- Consulta Login e Senha --
+public static string conexaoBanco = "Server=phpmyadmin.uni9.marize.us;Database=db_user_11;Uid=user_11;Pwd=Twq7e9YE-11!";
+
+public static bool VerificaUsuario(string usuarioEntrada, string senhaEntrada)
+{
+    using(MySqlConnection conn = new MySqlConnection(conexaoBanco))
+    {
+        try
+        {
+            conn.Open();
+            string sql = "SELECT usuario, senha FROM usuarios;";
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            MySqlDataReader leitor = cmd.ExecuteReader();
+
+            while(leitor.Read())
+            {
+                string usuario = leitor.GetString("usuario");
+                string senha = leitor.GetString("senha");
+
+                if(usuarioEntrada == usuario && senhaEntrada == senha)
+                {
+                    usuarioLogado = true;
+                    nomeUsuarioLogado = usuario;
+                    return true;
+                }
+            }
+        }
+        catch(Exception ex)
+        {
+            MessageBox.Show(ex.Message);
+        }
+        finally
+        {
+            conn.Close();
+        }
+    }
+    return false;
+}
+
+-- Cadastrar Cliente --
+using(MySqlConnection conn = new MySqlConnection(conexaoBanco))
+{
+    conn.Open();
+    MySqlTransaction transaction = conn.BeginTransaction();
+
+    try
+    {
+        if(txt_Nome.Text != "" && txt_CPF.Text != "")
+        {
+            // Inserir Clientes
+            string sqlCliente = "INSERT INTO db_user_11.clientes VALUES(" +
+                                "NULL, @nome, @cpf, @email);";
+            MySqlCommand cmdCliente = new MySqlCommand(sqlCliente, conn, transaction);
+            cmdCliente.Parameters.AddWithValue("@nome", txt_Nome.Text);
+            cmdCliente.Parameters.AddWithValue("@cpf", txt_CPF.Text);
+            cmdCliente.Parameters.AddWithValue("@email", txt_Email.Text);
+            cmdCliente.ExecuteNonQuery();
+            long idCliente = cmdCliente.LastInsertedId;
+
+            // Inserir endereço
+            string sqlEndereco = "INSERT INTO db_user_11.endereco VALUES(" +
+                                 "null, @rua, @numero, @cep, @cidade, @uf, @idCliente);";
+            MySqlCommand cmdEndereco = new MySqlCommand(sqlEndereco, conn, transaction);
+            cmdEndereco.Parameters.AddWithValue("@rua", txt_Rua.Text);
+            cmdEndereco.Parameters.AddWithValue("@numero", txt_Numero.Text);
+            cmdEndereco.Parameters.AddWithValue("@cep", txt_CEP.Text);
+            cmdEndereco.Parameters.AddWithValue("@cidade", txt_Cidade.Text);
+            cmdEndereco.Parameters.AddWithValue("@uf", txt_UF.Text);
+            cmdEndereco.Parameters.AddWithValue("@idCliente", idCliente);
+            cmdEndereco.ExecuteNonQuery();
+
+            // Inserir telefone
+            string sqlTelefone = "INSERT INTO db_user_11.telefone VALUES(" +
+                                 "null, @tipo, @numerotelefone, @idCliente);";
+            MySqlCommand cmdTelefone = new MySqlCommand(sqlTelefone, conn, transaction);
+            cmdTelefone.Parameters.AddWithValue("@tipo", tipo_tel.Text);
+            cmdTelefone.Parameters.AddWithValue("@numerotelefone", txt_Telefone.Text);
+            cmdTelefone.Parameters.AddWithValue("@idCliente", idCliente);
+            cmdTelefone.ExecuteNonQuery();
+
+            transaction.Commit();
+            MessageBox.Show("Dados Inseridos com Sucesso");
+            LimparCampos();
+        }
+    }
+    catch(Exception ex)
+    {
+        transaction.Rollback();
+        MessageBox.Show(ex.Message);
+    }
+    finally
+    {
+        conn.Close();
+    }
+}
+
+-- Mostrar resultado textBox --
+if (box_Resultado.SelectedItem is Pessoa pessoaSelecionada)
+{
+    txt_id.Text = pessoaSelecionada.Id;
+    txt_Nome.Text = pessoaSelecionada.Nome;
+    txt_CPF.Text = pessoaSelecionada.Cpf;
+    txt_Email.Text = pessoaSelecionada.Email;
+    txt_Telefone.Text = pessoaSelecionada.NumeroTelefone;
+
+    tipo_tel.SelectedItem = pessoaSelecionada.Tipo;
+
+    if (tipo_tel.SelectedItem == null && !string.IsNullOrEmpty(pessoaSelecionada.Tipo))
+    {
+        tipo_tel.Items.Add(pessoaSelecionada.Tipo);
+        tipo_tel.SelectedItem = pessoaSelecionada.Tipo;
+    }
+
+    txt_Rua.Text = pessoaSelecionada.Rua;
+    txt_Numero.Text = pessoaSelecionada.Numero;
+    txt_CEP.Text = pessoaSelecionada.Cep;
+    txt_Cidade.Text = pessoaSelecionada.Cidade;
+    txt_UF.Text = pessoaSelecionada.Uf;
+}
+
+-- Atualizar dados --
+using(MySqlConnection conn = new MySqlConnection(conexaoBanco))
+{
+    conn.Open();
+    MySqlTransaction transaction = conn.BeginTransaction();
+
+    try
+    {
+        string sqlCliente = "UPDATE db_user_11.clientes " +
+                            "SET NOME = @nome, EMAIL = @email, CPF = @cpf " +
+                            "WHERE IDCLIENTE = @idCliente;";
+        MySqlCommand cmdCliente = new MySqlCommand(sqlCliente, conn, transaction);
+        cmdCliente.Parameters.AddWithValue("@nome", txt_Nome.Text);
+        cmdCliente.Parameters.AddWithValue("@email", txt_Email.Text);
+        cmdCliente.Parameters.AddWithValue("@cpf", txt_CPF.Text);
+        cmdCliente.Parameters.AddWithValue("@idCliente", txt_id.Text);
+        cmdCliente.ExecuteNonQuery();
+
+        string sqlEndereco = "UPDATE db_user_11.endereco " +
+                            "SET RUA = @rua, NUMERO = @numero, CEP = @cep, CIDADE = @cidade, UF = @uf " +
+                            "WHERE ID_CLIENTE = @idCliente;";
+        MySqlCommand cmdEndereco = new MySqlCommand(sqlEndereco, conn, transaction);
+        cmdEndereco.Parameters.AddWithValue("@rua", txt_Rua.Text);
+        cmdEndereco.Parameters.AddWithValue("@numero", txt_Numero.Text);
+        cmdEndereco.Parameters.AddWithValue("@cep", txt_CEP.Text);
+        cmdEndereco.Parameters.AddWithValue("@cidade", txt_Cidade.Text);
+        cmdEndereco.Parameters.AddWithValue("@uf", txt_UF.Text);
+        cmdEndereco.Parameters.AddWithValue("@idCliente", txt_id.Text);
+        cmdEndereco.ExecuteNonQuery();
+
+        string sqlTelefone = "UPDATE db_user_11.telefone " +
+                             "SET TIPO = @tipo, NUMEROTELEFONE = @numerotelefone " +
+                             "WHERE ID_CLIENTE = @idCliente;";
+        MySqlCommand cmdTelefone = new MySqlCommand(sqlTelefone, conn, transaction);
+        cmdTelefone.Parameters.AddWithValue("@tipo", tipo_tel.Text);
+        cmdTelefone.Parameters.AddWithValue("@numerotelefone", txt_Telefone.Text);
+        cmdTelefone.Parameters.AddWithValue("@idCliente", txt_id.Text);
+        cmdTelefone.ExecuteNonQuery();
+
+        transaction.Commit();
+        MessageBox.Show("Dados atualizados com sucesso!");
+    }
+    catch(Exception ex)
+    {
+        transaction.Rollback();
+        MessageBox.Show(ex.Message);
+    }
+    finally
+    {
+        conn.Close();
+    }
+}
+
+-- Mostrar Resultado --
+using (MySqlConnection conn = new MySqlConnection(conexaoBanco))
+{
+    conn.Open();
+    MySqlTransaction transaction = conn.BeginTransaction();
+
+    try
+    {
+        string sqlConsulta = "SELECT C.IDCLIENTE, C.NOME, C.CPF, C.EMAIL, E.RUA, E.NUMERO, E.CEP, E.CIDADE, E.UF, T.TIPO, T.NUMEROTELEFONE " +
+                             "FROM db_user_11.clientes as C " +
+                             "INNER JOIN db_user_11.endereco as E " +
+                             "ON C.IDCLIENTE = E.ID_CLIENTE " +
+                             "INNER JOIN db_user_11.telefone as T " +
+                             "ON C.IDCLIENTE = T.ID_CLIENTE";
+        MySqlCommand cmd = new MySqlCommand(sqlConsulta, conn, transaction);
+        MySqlDataReader leitor = cmd.ExecuteReader();
+
+        while(leitor.Read())
+        {
+            Pessoa pessoa = new Pessoa
+            {
+                Id = leitor.IsDBNull(leitor.GetOrdinal("IDCLIENTE")) ? "" : leitor.GetInt32("IDCLIENTE").ToString(),
+                Nome = leitor.IsDBNull(leitor.GetOrdinal("NOME")) ? "" : leitor.GetString("NOME"),
+                Cpf = leitor.IsDBNull(leitor.GetOrdinal("CPF")) ? "" : leitor.GetString("CPF"),
+                Email = leitor.IsDBNull(leitor.GetOrdinal("EMAIL")) ? "" : leitor.GetString("EMAIL"),
+                Rua = leitor.IsDBNull(leitor.GetOrdinal("RUA")) ? "" : leitor.GetString("RUA"),
+                Numero = leitor.IsDBNull(leitor.GetOrdinal("NUMERO")) ? "" : leitor.GetString("NUMERO"),
+                Cep = leitor.IsDBNull(leitor.GetOrdinal("CEP")) ? "" : leitor.GetString("CEP"),
+                Cidade = leitor.IsDBNull(leitor.GetOrdinal("CIDADE")) ? "" : leitor.GetString("CIDADE"),
+                Uf = leitor.IsDBNull(leitor.GetOrdinal("UF")) ? "" : leitor.GetString("UF"),
+                Tipo = leitor.IsDBNull(leitor.GetOrdinal("TIPO")) ? "" : leitor.GetString("TIPO"),
+                NumeroTelefone = leitor.IsDBNull(leitor.GetOrdinal("NUMEROTELEFONE")) ? "" : leitor.GetString("NUMEROTELEFONE")
+            };
+
+
+            box_Resultado.Items.Add(pessoa);
+        }
+
+        box_Resultado.DisplayMember = "Nome";
+        
+    }
+    catch(Exception ex)
+    {
+        MessageBox.Show(ex.Message);
+    }
+    finally
+    {
+        conn.Close();
+    }
+}
+
+-- consulta os dados do cliente do banco --
+SELECT IDCLIENTE, NOME, CPF, EMAIL, RUA, NUMERO, CEP, CIDADE, UF, TIPO, NUMEROTELEFONE
+FROM db_user_11.clientes as C
+INNER JOIN db_user_11.endereco as E
+ON C.IDCLIENTE = E.ID_CLIENTE
+INNER JOIN db_user_11.telefone as T
+ON C.IDCLIENTE = T.ID_CLIENTE;
+
+-- Consulta os dados do veículo no banco --
+SELECT IDVEICULOS, DATA_ENTRADA, DATA_SAIDA, PLACA, MARCA, MODELO, COR, ANO_MODELO, SERVICO, OBSERVACAO
+FROM db_user_11.veiculos as V
+INNER JOIN db_user_11.servicos as S
+ON V.IDVEICULOS = S.ID_VEICULOS
+INNER JOIN db_user_11.observacoes as O
+ON V.IDVEICULOS = O.ID_VEICULOS;
+
+-- consulta todos os dados do banco --
+SELECT IDCLIENTE, NOME, CPF, EMAIL, RUA, NUMERO, CEP, CIDADE, UF, TIPO, NUMEROTELEFONE, DATA_ENTRADA, DATA_SAIDA, PLACA, MARCA, MODELO, COR, ANO_MODELO, SERVICO, OBSERVACAO
+FROM db_user_11.clientes as C
+INNER JOIN db_user_11.endereco as E
+ON C.IDCLIENTE = E.ID_CLIENTE
+INNER JOIN db_user_11.telefone as T
+ON C.IDCLIENTE = T.ID_CLIENTE
+INNER JOIN db_user_11.veiculos as V
+ON C.IDCLIENTE = V.ID_CLIENTE
+INNER JOIN db_user_11.servicos as S
+ON V.IDVEICULOS = S.ID_VEICULOS
+INNER JOIN db_user_11.observacoes as O
+ON V.IDVEICULOS = O.ID_VEICULOS;

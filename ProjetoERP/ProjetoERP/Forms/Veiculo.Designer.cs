@@ -52,6 +52,7 @@
             this.check_Estetica = new System.Windows.Forms.CheckBox();
             this.txt_IdCliente = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.btn_Mostrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -160,7 +161,7 @@
             // 
             this.btn_Limpar.Location = new System.Drawing.Point(206, 332);
             this.btn_Limpar.Name = "btn_Limpar";
-            this.btn_Limpar.Size = new System.Drawing.Size(104, 37);
+            this.btn_Limpar.Size = new System.Drawing.Size(63, 37);
             this.btn_Limpar.TabIndex = 20;
             this.btn_Limpar.Text = "Limpar";
             this.btn_Limpar.UseVisualStyleBackColor = true;
@@ -168,9 +169,9 @@
             // 
             // btn_Enviar
             // 
-            this.btn_Enviar.Location = new System.Drawing.Point(331, 332);
+            this.btn_Enviar.Location = new System.Drawing.Point(372, 331);
             this.btn_Enviar.Name = "btn_Enviar";
-            this.btn_Enviar.Size = new System.Drawing.Size(104, 37);
+            this.btn_Enviar.Size = new System.Drawing.Size(63, 37);
             this.btn_Enviar.TabIndex = 21;
             this.btn_Enviar.Text = "Enviar";
             this.btn_Enviar.UseVisualStyleBackColor = true;
@@ -267,12 +268,23 @@
             this.label8.TabIndex = 31;
             this.label8.Text = "ID Cliente";
             // 
+            // btn_Mostrar
+            // 
+            this.btn_Mostrar.Location = new System.Drawing.Point(287, 331);
+            this.btn_Mostrar.Name = "btn_Mostrar";
+            this.btn_Mostrar.Size = new System.Drawing.Size(63, 37);
+            this.btn_Mostrar.TabIndex = 32;
+            this.btn_Mostrar.Text = "Mostrar";
+            this.btn_Mostrar.UseVisualStyleBackColor = true;
+            this.btn_Mostrar.Click += new System.EventHandler(this.btn_Mostrar_Click);
+            // 
             // Veiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(552, 450);
+            this.Controls.Add(this.btn_Mostrar);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txt_IdCliente);
             this.Controls.Add(this.check_Estetica);
@@ -330,5 +342,6 @@
         private System.Windows.Forms.CheckBox check_Estetica;
         private System.Windows.Forms.TextBox txt_IdCliente;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btn_Mostrar;
     }
 }

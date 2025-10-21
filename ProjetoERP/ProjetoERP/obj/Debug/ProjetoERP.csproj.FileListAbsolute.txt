@@ -96,3 +96,4 @@ C:\Users\fealv\Desktop\Uninove\Projeto-ERP\ProjetoERP\ProjetoERP\obj\Debug\Proje
 C:\Users\fealv\Desktop\Uninove\Projeto-ERP\ProjetoERP\ProjetoERP\obj\Debug\ProjetoERP.csproj.Up2Date
 C:\Users\fealv\Desktop\Uninove\Projeto-ERP\ProjetoERP\ProjetoERP\obj\Debug\ProjetoERP.exe
 C:\Users\fealv\Desktop\Uninove\Projeto-ERP\ProjetoERP\ProjetoERP\obj\Debug\ProjetoERP.pdb
+C:\Users\fealv\Desktop\Uninove\Projeto-ERP\ProjetoERP\ProjetoERP\obj\Debug\ProjetoERP.MostrarVeiculos.resources

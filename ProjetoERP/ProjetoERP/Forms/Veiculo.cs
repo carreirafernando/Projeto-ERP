@@ -100,5 +100,12 @@ namespace ProjetoERP.Forms
                 }
             }
         }
+
+        private void btn_Mostrar_Click(object sender, EventArgs e)
+        {
+            MostrarVeiculos m = new MostrarVeiculos();
+            m.ShowDialog();
+            
+        }
     }
 }
