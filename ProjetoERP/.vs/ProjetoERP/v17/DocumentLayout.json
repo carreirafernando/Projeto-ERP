@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|c:\\users\\fealv\\desktop\\uninove\\projeto-erp\\projetoerp\\projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|c:\\users\\fealv\\desktop\\uninove\\projeto-erp\\projetoerp\\projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\mostrarveiculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|c:\\users\\fealv\\desktop\\uninove\\projeto-erp\\projetoerp\\projetoerp\\forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|c:\\users\\fealv\\desktop\\uninove\\projeto-erp\\projetoerp\\projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\forms\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\projetoerp\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26498EFB-8CF0-4343-8CEF-307B31A549BB}|ProjetoERP\\ProjetoERP.csproj|solutionrelative:projetoerp\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,137 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MostrarVeiculos.cs",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\MostrarVeiculos.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs",
-              "RelativeToolTip": "ProjetoERP\\Forms\\MostrarVeiculos.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T01:26:40.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MostrarVeiculos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\MostrarVeiculos.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs [Design]",
-              "RelativeToolTip": "ProjetoERP\\Forms\\MostrarVeiculos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T01:23:21.723Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Veiculo.cs",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Veiculo.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Veiculo.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Veiculo.cs",
-              "RelativeToolTip": "ProjetoERP\\Forms\\Veiculo.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAApwGsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:52:44.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Cliente.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs [Design]",
-              "RelativeToolTip": "ProjetoERP\\Forms\\Cliente.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:28:20.435Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Cliente.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs",
-              "RelativeToolTip": "ProjetoERP\\Forms\\Cliente.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAACAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T00:12:25.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Classes.cs",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Classes.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Classes.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Classes.cs",
-              "RelativeToolTip": "ProjetoERP\\Classes.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:25:01.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Login.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Login.cs",
-              "RelativeToolTip": "ProjetoERP\\Forms\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:56:18.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Form1.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs [Design]",
-              "RelativeToolTip": "ProjetoERP\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:14:34.524Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Form1.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs",
-              "RelativeToolTip": "ProjetoERP\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:24:39.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inicio.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Inicio.cs",
-              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Inicio.cs",
-              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Inicio.cs [Design]",
-              "RelativeToolTip": "ProjetoERP\\Forms\\Inicio.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T22:28:11.055Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -197,6 +79,151 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T22:28:42.333Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MostrarVeiculos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\MostrarVeiculos.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs [Design]",
+              "RelativeToolTip": "ProjetoERP\\Forms\\MostrarVeiculos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T01:23:21.723Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inicio.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Inicio.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Inicio.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Inicio.cs [Design]",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Inicio.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:28:11.055Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Agenda.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Agenda.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Agenda.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Agenda.cs [Design]",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Agenda.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:37:26.366Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Agenda.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Agenda.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Agenda.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Agenda.cs",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Agenda.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:44:57.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Classes.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Classes.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Classes.cs",
+              "RelativeToolTip": "ProjetoERP\\Classes.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:25:01.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Veiculo.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Veiculo.cs",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Veiculo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:52:44.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MostrarVeiculos.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\MostrarVeiculos.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\MostrarVeiculos.cs",
+              "RelativeToolTip": "ProjetoERP\\Forms\\MostrarVeiculos.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T01:26:40.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Login.cs",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Login.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:56:18.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Cliente.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs [Design]",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Cliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T04:30:19.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Forms\\Cliente.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Forms\\Cliente.cs",
+              "RelativeToolTip": "ProjetoERP\\Forms\\Cliente.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T04:30:23.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Form1.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs [Design]",
+              "RelativeToolTip": "ProjetoERP\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:14:34.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjetoERP\\Form1.cs",
+              "ToolTip": "C:\\Users\\fealv\\Desktop\\Uninove\\Projeto-ERP\\ProjetoERP\\ProjetoERP\\Form1.cs",
+              "RelativeToolTip": "ProjetoERP\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:24:39.131Z"
             }
           ]
         }

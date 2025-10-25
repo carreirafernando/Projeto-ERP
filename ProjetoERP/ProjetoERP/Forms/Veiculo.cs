@@ -88,6 +88,22 @@ namespace ProjetoERP.Forms
 
                     MessageBox.Show("Dados Inseridos Com Sucesso!");
                     transaction.Commit();
+
+                    data_entrada.Value = DateTime.Now;
+                    data_saida.Value = DateTime.Now;
+                    txt_Placa.Text = "";
+                    txt_Marca.Text = "";
+                    txt_Modelo.Text = "";
+                    txt_Cor.Text = "";
+                    txt_anoModelo.Text = "";
+                    txt_IdCliente.Text = "";
+
+                    check_Diagnostico.Checked = false;
+                    check_Estetica.Checked = false;
+                    check_Geometria.Checked = false;
+                    check_Revisao.Checked = false;
+                    area_reclamacao.Clear();
+
                 }
                 catch(Exception ex)
                 {

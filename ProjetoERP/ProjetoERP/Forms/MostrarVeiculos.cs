@@ -26,12 +26,15 @@ namespace ProjetoERP
                 conn.Open();
                 try
                 {
-                    string sql = "SELECT IDVEICULOS, DATA_ENTRADA, DATA_SAIDA, PLACA, MARCA, MODELO, COR, ANO_MODELO, SERVICO, OBSERVACAO " +
+                    string sql = "SELECT IDVEICULOS, DATA_ENTRADA, DATA_SAIDA, PLACA, MARCA, MODELO, COR, ANO_MODELO, " +
+                                 "GROUP_CONCAT(DISTINCT S.SERVICO SEPARATOR '\n') AS SERVICO, " +
+                                 "GROUP_CONCAT(DISTINCT OBSERVACAO SEPARATOR '\n') AS OBSERVACAO " +
                                  "FROM db_user_11.veiculos as V " +
                                  "INNER JOIN db_user_11.servicos as S " +
                                  "ON V.IDVEICULOS = S.ID_VEICULOS " +
                                  "INNER JOIN db_user_11.observacoes as O " +
-                                 "ON V.IDVEICULOS = O.ID_VEICULOS;";
+                                 "ON V.IDVEICULOS = O.ID_VEICULOS " +
+                                 "GROUP BY V.IDVEICULOS;";
                     MySqlCommand cmd = new MySqlCommand(sql, conn);
                     MySqlDataReader leitor = cmd.ExecuteReader();
                     while(leitor.Read())
@@ -47,7 +50,10 @@ namespace ProjetoERP
                         string servico = leitor.GetString("SERVICO");
                         string observacao = leitor.GetString("OBSERVACAO");
 
-                        Mostar_Veiculos.Items.Add($"{id} - {placa} - {marca} - {modelo} - {cor} - {anoModelo} - {servico} - {servico} - {observacao}");
+                        grid_informacao.Rows.Add(id, placa, marca, modelo, cor, anoModelo, servico, observacao);
+                        grid_informacao.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+                        grid_informacao.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
                     }
                 }
                 catch(Exception ex)

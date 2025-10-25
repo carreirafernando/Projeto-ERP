@@ -54,11 +54,15 @@ namespace ProjetoERP.Forms
             public string Uf { get; set; }
             public string Tipo { get; set; }
             public string NumeroTelefone { get; set; }
+
+            public string Informacoes { get; set; }
         }
 
         private void btn_Mostrar_Click(object sender, EventArgs e)
         {
             box_Resultado.Items.Clear();
+            box_Resultado.Items.Add("ID  -  NOME");
+            box_Resultado.Items.Add("");
             using (MySqlConnection conn = new MySqlConnection(conexaoBanco))
             {
                 conn.Open();
@@ -89,15 +93,17 @@ namespace ProjetoERP.Forms
                             Cidade = leitor.IsDBNull(leitor.GetOrdinal("CIDADE")) ? "" : leitor.GetString("CIDADE"),
                             Uf = leitor.IsDBNull(leitor.GetOrdinal("UF")) ? "" : leitor.GetString("UF"),
                             Tipo = leitor.IsDBNull(leitor.GetOrdinal("TIPO")) ? "" : leitor.GetString("TIPO"),
-                            NumeroTelefone = leitor.IsDBNull(leitor.GetOrdinal("NUMEROTELEFONE")) ? "" : leitor.GetString("NUMEROTELEFONE")
+                            NumeroTelefone = leitor.IsDBNull(leitor.GetOrdinal("NUMEROTELEFONE")) ? "" : leitor.GetString("NUMEROTELEFONE"),
+                            Informacoes = $"{leitor.GetInt32("IDCLIENTE").ToString()}  - {leitor.GetString("NOME")}"
                         };
 
 
                         box_Resultado.Items.Add(pessoa);
                     }
 
-                    box_Resultado.DisplayMember = "Nome";
                     
+                    box_Resultado.DisplayMember = "Informacoes";
+
                 }
                 catch(Exception ex)
                 {
